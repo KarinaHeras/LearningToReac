@@ -23,7 +23,7 @@ function Contact() {
    <div className="contact_form">
     <form>
        <input  value={name} onChange={(e) => setName(e.target.value)} name="nombre" placeholder="Nombre"/>
-        <textarea value={messege} onchage={(e) => setMessage(e.target.value) }placeholder="Escribe aqui tu mensaje...."> </textarea>
+        <textarea value={messege} onChange={(e) => setMessage(e.target.value) }placeholder="Escribe aqui tu mensaje...."> </textarea>
          <button onClick={sendMessage} >Envia tu mensaje </button> 
     </form>
 
