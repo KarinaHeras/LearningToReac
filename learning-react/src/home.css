@@ -1,0 +1,66 @@
+.home_banner{
+    background-image: url('img/pexels-christina-morillo-1181244.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -500px;
+    color:rgb(238, 236, 229);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home_banner h1{
+    font-size: 4rem;
+    text-shadow: black;
+}
+
+.home_sub_banner{
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+.home_sub_banner p{
+   font-size: 1rem;
+   font-weight: bold;
+}
+.home_content{
+    padding: 0px 10%;
+    margin-top: 2rem;
+}
+.home_content_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+.home_content h2{
+    font-size: 2rem;
+}
+.home_clousters{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.home_clousters div{
+    display: flex;
+    flex-grow: 1;
+    width: 31%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin: 1%;
+    color: white;
+}
+
+.home_clousters div a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
